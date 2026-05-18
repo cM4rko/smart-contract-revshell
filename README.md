@@ -44,12 +44,8 @@ cast send [Contract Address]  "updateShell(bytes)"  [Payload] --rpc-url $NODE --
 ```
 
 ---
-## 📽️ PoCs ##
-<video src="https://github.com/cM4rko/smart-contract-revshell/blob/main/assets/videos/Linux-PoC.mp4" controls width="100%">
-    Tu navegador no soporta la reproducción de video.
-</video>
+## 📽️ PoCs
+https://github.com/user-attachments/assets/1a8668cc-466f-4223-9618-4762ed72ffe2
 
+https://github.com/user-attachments/assets/52dabd5b-0394-4fc7-b5c7-859bdc9c2cee
 
-
-https://github.com/cM4rko/smart-contract-revshell/blob/main/assets/videos/Linux-PoC.mp4
-https://smart-contract-revshell/assets/videos/Linux-PoC.mp4
