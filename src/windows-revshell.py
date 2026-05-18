@@ -2,11 +2,11 @@ from web3 import Web3
 import subprocess
 
 w3 = Web3(
-    Web3.HTTPProvider("https://eth-sepolia.g.alchemy.com/v2/EjNGM-8OA7sMKaJw8faX9")
+    Web3.HTTPProvider("https://node")
 )
 
 contract_address = w3.to_checksum_address(
-    "0x7B1Ab000d37FC2532101c685C23C4840D5bF90B6"
+    "Contract Address"
 )
 
 abi = [
