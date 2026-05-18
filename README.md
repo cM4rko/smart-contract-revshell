@@ -8,7 +8,7 @@ centralized shutdowns.
 
 ## 🎓 Overview ##
 
-![img](https://smart-contract-revshell/assets/images/image.png)
+<img src="https://github.com/cM4rko/smart-contract-revshell/blob/main/assets/images/image.png" >
 
 ---
 
@@ -31,7 +31,7 @@ centralized shutdowns.
 - Only the contract Owner can change the payload stored in the contract
 
 ---
-## ⚙️ Steps ##
+## ⚙️ Snippets ##
 
 **To deploy the contract**
 ```bash
@@ -45,6 +45,11 @@ cast send [Contract Address]  "updateShell(bytes)"  [Payload] --rpc-url $NODE --
 
 ---
 ## 📽️ PoCs ##
+<video src="https://github.com/cM4rko/smart-contract-revshell/blob/main/assets/videos/Linux-PoC.mp4" controls width="100%">
+    Tu navegador no soporta la reproducción de video.
+</video>
 
-https://smart-contract-revshell/assets/videos/Windows-PoC.mp4
+
+
+https://github.com/cM4rko/smart-contract-revshell/blob/main/assets/videos/Linux-PoC.mp4
 https://smart-contract-revshell/assets/videos/Linux-PoC.mp4
