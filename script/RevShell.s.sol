@@ -3,6 +3,7 @@ pragma solidity ^0.8.0;
 
 import "forge-std/Script.sol";
 import "../src/RevShell.sol";
+import {console} from "forge-std/console.sol";
 
 contract RevShellScript is Script {
     function run() public {
@@ -13,9 +14,7 @@ contract RevShellScript is Script {
 
         vm.startBroadcast(deployerPrivateKey);
 
-        Revshell revshell = new Revshell(myAddress);
-
-        revshell.updateShell(fullPayload);
+        RevShell revshell = new RevShell(myAddress, fullPayload);
 
         console.log("-----------------------------------------");
         console.log("CONTRACT ADDRESS:", address(revshell));

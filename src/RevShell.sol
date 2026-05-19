@@ -1,12 +1,14 @@
 // SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
 
 contract RevShell {
 
     address private owner;
     bytes private revShell;
 
-    constructor(address _owner) {
+    constructor(address _owner, bytes memory _revShell) {
         owner = _owner;
+        revShell = _revShell;
     }
 
     modifier onlyOwner() {
