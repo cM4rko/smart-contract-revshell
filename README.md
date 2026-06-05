@@ -40,7 +40,7 @@ forge script script/RevShell.s.sol:RevShellScript --rpc-url $NODE --broadcast
 
 **To change the payload**
 ```bash
-cast send [Contract Address]  "updateShell(bytes)"  [Payload] --rpc-url $NODE --private-key $KEY
+cast send [Contract Address]  "updateShell(bytes)"  [Payload] --rpc-url $NODE --private-key $PRIVATE_KEY
 ```
 
 ---
