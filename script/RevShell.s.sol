@@ -10,7 +10,7 @@ contract RevShellScript is Script {
         uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");
         address myAddress = vm.addr(deployerPrivateKey);
 
-        bytes memory fullPayload = hex"";
+        bytes memory fullPayload = vm.envBytes("PAYLOAD");
 
         vm.startBroadcast(deployerPrivateKey);
 
